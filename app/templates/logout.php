@@ -1,0 +1,1 @@
+<?php wp_logout(wp_get_referer()); ?>
