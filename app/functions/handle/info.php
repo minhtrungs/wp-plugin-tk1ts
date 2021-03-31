@@ -302,7 +302,6 @@ function tlp_delete_all(){
             $ten = $tlp_info->ho_ten;
             $tlp_delete = $tlp_info->delete();
             if($tlp_delete==true){
-                echo "alert('Xóa thành công $ten!');";
                 echo "$('#tlp-row-$selected_id').remove();";
             }else{
                 echo "alert('Đã có lỗi xảy ra, xóa thất bại $ten!');";
